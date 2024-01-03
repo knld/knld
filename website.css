@@ -1,13 +1,47 @@
+img{
+  border-radius: 10px;
+  display: block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+img:hover{
+  box-shadow:  5px 5px 10px rgba(0, 0,0, 0.15);
+}
+
+p{
+  margin-left: 20px;
+  font-family: Arial;
+  font-size: 10px;
+  font-style: bold;
+  margin-bottom: 0;
+}
+.search{
+  border-radius: 5px;
+  border:none;
+  display: block;
+  margin: 20px;
+  transition: box-shadow 0.15s;
+}
+
+.search:hover{
+  box-shadow:  5px 5px 10px rgba(0, 0,0, 0.15);
+}
+.button{
+  font-family: Roboto;
+}
+
 button{
   font-weight: bold;
-  font-family: Arial;
+  font-family: Roboto;
   box-shadow: 5px 5px 10px rgba(0, 0,0, 0.15);
   padding: 10px 10px;
   border-width: 1px;
   vertical-align: top;
   margin-left: 10px;
   margin-bottom: 10px;
-  width: 210px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 button:hover{
@@ -24,6 +58,7 @@ button:hover{
     transition: background 0.15s,
     opacity 0.15;
     color: white;
+    display: inline-block;
   }
 
 
@@ -34,11 +69,16 @@ button:hover{
     color: rgb(0, 0, 0);
   }
     .title{
-      font-family: Arial;
+      font-family: Roboto;
       width: bold;
       font-size: 20px;
       margin-top: 0;
       margin-bottom: 0;
       margin-left: 20px;
 
+    }
+
+    .caterM{
+     text-decoration: underline;
+     cursor: pointer;
     }
