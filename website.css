@@ -1,8 +1,8 @@
 img{
   border-radius: 10px;
   display: block;
-  margin: 10px;
   cursor: pointer;
+  margin: 10px;
 }
 
 img:hover{
@@ -12,9 +12,12 @@ img:hover{
 p{
   margin-left: 20px;
   font-family: Arial;
-  font-size: 10px;
+  font-size: 14px;
   font-style: bold;
-  margin-bottom: 0;
+  margin-top: 0;
+  max-height: 4rem;
+  text-align: top;
+  display: block;
 }
 .search{
   border-radius: 5px;
@@ -42,6 +45,7 @@ button{
   margin-bottom: 10px;
   display: inline-block;
   vertical-align: middle;
+  display: block;
 }
 
 button:hover{
@@ -81,4 +85,20 @@ button:hover{
     .caterM{
      text-decoration: underline;
      cursor: pointer;
+    }
+    .caterI{
+      text-decoration: underline;
+      cursor: pointer;
+     }
+
+    div{
+      width: 300px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 50px;
+    }
+
+    .released{
+      vertical-align: top;
+      margin-bottom: 0;
     }
